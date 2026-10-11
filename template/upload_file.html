@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wafer Fault Detection</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <form action="{{ url_for('predict') }}"
+          method="POST"
+          enctype="multipart/form-data">
+
+        <h1 class="title">Upload CSV for the Prediction</h1>
+
+        <div class="frame">
+            <div class="center">
+                <div class="title">
+                    <h1>Drop File to Upload</h1>
+                </div>
+
+                <div class="dropzone">
+                    <img
+                        src="https://100dayscss.com/codepen/upload.svg"
+                        class="upload-icon"
+                        alt="Upload icon">
+
+                    <input
+                        type="file"
+                        class="upload-input"
+                        name="file"
+                        accept=".csv"
+                        required>
+                </div>
+
+                <button type="submit"
+                        class="btn"
+                        name="uploadbutton">
+                    Upload File
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

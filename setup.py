@@ -27,3 +27,4 @@ setup(
 
 "name=sahilharadwala123_db_user"
 "password=C1DTgT5sznORnxzA"
+"mongo ulr_= mongodb+srv://sahilharadwala123_db_user:C1DTgT5sznORnxzA@sensorfault.oz0wme4.mongodb.net/?appName=Sensorfault"
