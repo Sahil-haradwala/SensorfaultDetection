@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 from typing import List
-
+"just updated awsthings"
 HYPEN_E_DOT = '-e .'
 
 def get_requirements(file_path: str) -> List[str]:
