@@ -8,16 +8,14 @@ from pymongo.mongo_client import MongoClient
 from zipfile import Path
 from dataclasses import dataclass
 
-# Fixed imports (Removed the typo in 'exception')
 from src.constant import *
-from src.excep.exception import CustomException  #  Fixed typo here
+from src.excep.exception import CustomException 
 from src.logger import logging
 from src.utils.mail_utils import MainUtils
 
 
 @dataclass
 class DataIngetionconfig:
-    # Fixed syntax error: Given it a concrete default directory name "artifacts"
     artifact_folder: str = os.path.join(os.getcwd(), "artifacts") 
     
     

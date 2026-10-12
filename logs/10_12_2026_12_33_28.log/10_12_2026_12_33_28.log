@@ -1,0 +1,10 @@
+[ 2026-10-12 12:33:33,003 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-10-12 12:33:33,010 ] 97 werkzeug - INFO -  * Debugger PIN: 734-483-824
+[ 2026-10-12 12:33:50,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:50] "GET /predict HTTP/1.1" 200 -
+[ 2026-10-12 12:33:50,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:33:58,481 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2026-10-12 12:33:58,495 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:58] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:33:58,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:58] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:33:58,520 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:58] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=DcqRvIPatOrMmzarfsgg HTTP/1.1" 200 -
+[ 2026-10-12 12:33:58,594 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:33:58] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:37:51,747 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Desktop\\FaultDetection\\src\\pipeline\\prediction_pipeline\\Prediction_pipeline.py', reloading

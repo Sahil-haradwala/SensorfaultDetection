@@ -1,0 +1,29 @@
+[ 2026-10-12 10:52:40,971 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-10-12 10:52:40,980 ] 97 werkzeug - INFO -  * Debugger PIN: 734-483-824
+[ 2026-10-12 10:52:51,616 ] 42 root - INFO - Starting Pipeline...
+[ 2026-10-12 10:52:51,617 ] 63 root - INFO - entered Intiated data ingetion method of data integration process class
+[ 2026-10-12 10:52:51,617 ] 44 root - INFO - Exporting data from mongodb
+[ 2026-10-12 10:52:57,590 ] 53 root - INFO - saving exported data into feature store file path: C:\Users\HP\Desktop\FaultDetection\artifacts
+[ 2026-10-12 10:52:57,763 ] 66 root - INFO - got the data mongodb 
+[ 2026-10-12 10:52:57,766 ] 67 root - INFO - exited and intiate data ingetion method of data ingetion class
+[ 2026-10-12 10:52:57,767 ] 48 root - INFO - Entered intiate data transformation method of a data data transformation class
+[ 2026-10-12 10:52:57,940 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-12 10:52:57,942 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-12 10:52:57,946 ] 113 root - INFO - Splitting training and testing data
+[ 2026-10-12 10:52:57,946 ] 122 root - INFO - Extracting config file path
+[ 2026-10-12 10:53:01,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:53:01] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2026-10-12 10:53:01,930 ] 42 root - INFO - Starting Pipeline...
+[ 2026-10-12 10:53:01,932 ] 63 root - INFO - entered Intiated data ingetion method of data integration process class
+[ 2026-10-12 10:53:01,932 ] 44 root - INFO - Exporting data from mongodb
+[ 2026-10-12 10:53:08,877 ] 53 root - INFO - saving exported data into feature store file path: C:\Users\HP\Desktop\FaultDetection\artifacts
+[ 2026-10-12 10:53:08,991 ] 66 root - INFO - got the data mongodb 
+[ 2026-10-12 10:53:08,992 ] 67 root - INFO - exited and intiate data ingetion method of data ingetion class
+[ 2026-10-12 10:53:08,992 ] 48 root - INFO - Entered intiate data transformation method of a data data transformation class
+[ 2026-10-12 10:53:09,209 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-12 10:53:09,211 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-12 10:53:09,215 ] 113 root - INFO - Splitting training and testing data
+[ 2026-10-12 10:53:09,216 ] 122 root - INFO - Extracting config file path
+[ 2026-10-12 10:53:11,974 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:53:11] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2026-10-12 10:53:12,153 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:53:12] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-10-12 10:53:12,154 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:53:12] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-10-12 10:53:12,213 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:53:12] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=2H0VkKJgfyxWdbJ7ThDl HTTP/1.1" 200 -

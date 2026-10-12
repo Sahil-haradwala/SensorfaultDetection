@@ -1,0 +1,10 @@
+[ 2026-10-12 12:24:56,506 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-10-12 12:24:56,523 ] 97 werkzeug - INFO -  * Debugger PIN: 734-483-824
+[ 2026-10-12 12:25:11,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:11] "GET /predict HTTP/1.1" 200 -
+[ 2026-10-12 12:25:11,367 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:25:11,420 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-10-12 12:25:20,273 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2026-10-12 12:25:20,362 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:25:20,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-10-12 12:25:20,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:20] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=kKfArcy4gOjtgUGDPPV1 HTTP/1.1" 200 -
+[ 2026-10-12 12:25:20,467 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 12:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

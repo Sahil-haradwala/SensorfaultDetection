@@ -1,0 +1,19 @@
+[ 2026-10-12 10:57:46,077 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-10-12 10:57:46,088 ] 97 werkzeug - INFO -  * Debugger PIN: 734-483-824
+[ 2026-10-12 10:57:57,786 ] 42 root - INFO - Starting Pipeline...
+[ 2026-10-12 10:57:57,787 ] 63 root - INFO - entered Intiated data ingetion method of data integration process class
+[ 2026-10-12 10:57:57,788 ] 44 root - INFO - Exporting data from mongodb
+[ 2026-10-12 10:58:03,704 ] 53 root - INFO - saving exported data into feature store file path: C:\Users\HP\Desktop\FaultDetection\artifacts
+[ 2026-10-12 10:58:03,840 ] 66 root - INFO - got the data mongodb 
+[ 2026-10-12 10:58:03,842 ] 67 root - INFO - exited and intiate data ingetion method of data ingetion class
+[ 2026-10-12 10:58:03,843 ] 48 root - INFO - Entered intiate data transformation method of a data data transformation class
+[ 2026-10-12 10:58:04,022 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-12 10:58:04,026 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-12 10:58:04,033 ] 113 root - INFO - Splitting training and testing data
+[ 2026-10-12 10:58:04,035 ] 122 root - INFO - Extracting config file path
+[ 2026-10-12 10:59:11,489 ] 150 root - INFO - Best found model on both training and testing dataset
+[ 2026-10-12 10:59:11,489 ] 151 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2026-10-12 10:59:11,489 ] 49 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-12 10:59:11,493 ] 57 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-10-12 10:59:11,494 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:59:11] "GET /train HTTP/1.1" 200 -
+[ 2026-10-12 10:59:11,556 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Oct/2026 10:59:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
