@@ -4,7 +4,7 @@ AWS_ACCESS_KEY_ID=AKIAZ436NWLGECYPW6UO
 
 AWS_SECRET_KEY_ACCESS=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
 
-AWS_REGION=	Asia Pacific (Sydney) ap-southeast-2
+AWS_REGION=ap-southeast-2
 
 MONGO_DB_URL=  "mongodb+srv://sahilharadwala123_db_user:C1DTgT5sznORnxzA@sensorfault.oz0wme4.mongodb.net/?appName=Sensorfault"
 
